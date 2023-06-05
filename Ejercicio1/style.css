@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+h1 {
+    margin: 0;
+}
+main {
+    width: 30%;
+    height: 180px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 5px #808 solid;
+}
+p {
+    color: #808;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.btn {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
