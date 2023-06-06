@@ -5,7 +5,7 @@ function calcularResultado() {
     const number2 = parseInt(document.getElementById("number2").value);
     const operation = document.getElementById("operacion").value;
 
-    let resultado = 0;
+    let resultado;
 
     switch (operation) {
         case "Suma":
