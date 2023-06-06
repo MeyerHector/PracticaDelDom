@@ -27,7 +27,7 @@ const conjuntoDeCartas = [carta, carta1, carta2]
 
 
 conjuntoDeCartas.forEach((card) => {
-    cartasContainer.innerHTML += `<div class="card" style="width: 18rem;">
+    cartasContainer.innerHTML += `<div class="card">
     <img src="${card.image}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${card.title}</h5>
